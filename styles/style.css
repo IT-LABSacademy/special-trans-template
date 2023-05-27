@@ -8,4 +8,63 @@
 
 body{
     font-family: 'rubik';
+    color: #1D1D1B;
+}
+
+a{
+    text-decoration: none;
+    color: #1D1D1B;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.btn{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    background: #27AE60;
+    padding: 20px 36px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container{
+    width: 1420px;
+    margin: 0 auto;
+}
+
+/* hero */
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin: 0 0 320px;
+    padding-top: 30px;
+}
+
+.header .menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    font-size: 16px;
+}
+
+.header .menu .menu-link:hover{
+    color: #27AE60;
 }
