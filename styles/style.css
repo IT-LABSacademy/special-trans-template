@@ -47,7 +47,8 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 186px;
 }
 
 .header{
@@ -67,4 +68,25 @@ h2{
 
 .header .menu .menu-link:hover{
     color: #27AE60;
+}
+
+.hero .title{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    width: 700px;
+}
+
+.hero .subtitle{
+    font-size: 20px;
+    color: #fff;
+    width: 770px;
+    margin: 30px 0 60px;
+    line-height: 28px;
+}
+
+.hero .block{
+    display: inline-block;
+    background: radial-gradient(#8787877e 30%, transparent 70%);
+    backdrop-filter: blur(3px);
 }
