@@ -90,3 +90,33 @@ h2{
     background: radial-gradient(#8787877e 30%, transparent 70%);
     backdrop-filter: blur(3px);
 }
+
+/* services */
+.services{
+    padding: 80px 0;
+}
+
+.services .wrapper{
+    display: flex;
+    margin-top: 58px;
+    justify-content: space-between;
+}
+
+.services .wrapper .card{
+    border: 1px solid #a8a8a8;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 273px;
+}
+
+.services .card .text{
+    font-size: 14px;
+    color: #393838;
+}
+
+.services .card .text .accent{
+    color: #27AE60;
+}
